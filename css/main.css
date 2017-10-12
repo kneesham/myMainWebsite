@@ -53,14 +53,19 @@ body {
     z-index: 1;
     background:
         linear-gradient(
-            rgba(0,0,0,0.15),
-            rgba(0,0,0,0.15)
-            ),
-            url('../img/ascii-art.png');
-
+            rgba(0,0,0,0.05),
+            rgba(0,0,0,0.05)
+            );
             background-size: cover;
             height: 100vh;
 
+}
+
+.quote_generator {
+
+    border: 1px solid black;
+    width: 100%;
+    height: 75vh;
 }
 
 
